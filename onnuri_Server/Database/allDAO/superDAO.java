@@ -9,8 +9,8 @@ import java.sql.Statement;
 public class superDAO {
 	private String driver = "oracle.jdbc.driver.OracleDriver";
 	private String url = "jdbc:oracle:thin:@localhost:1521:orcl";
-	private String id = "system";
-	private String pwd = "1111";
+	private String id = "leewr9";
+	private String pwd = "9790";
 
 	protected Connection cn = null;
 	protected PreparedStatement ps;// 동적 쿼리문 하위클래스 실행을 위한 프로텍티드
